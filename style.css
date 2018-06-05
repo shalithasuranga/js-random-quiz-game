@@ -9,7 +9,6 @@ html,body {
     height: 100%;
     position: absolute;
     background-color: teal;
-    position: absolute;
     text-align: center;
 }
 
@@ -19,14 +18,15 @@ html,body {
     height: 100%;
     position: absolute;
     background-color:slategray;
-    position: absolute;
     text-align: center;
 }
 
 #question #q {
-    padding-top: 20%; 
     color: white;
     font-size: 60px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
 }
 
 #counter #number {
@@ -34,7 +34,8 @@ html,body {
     color: white;
     position: relative;
     text-align: center;
-    margin-top: 15%;
+    top: 50%;
+    transform: translateY(-50%); 
 }
 
 #question #number {
@@ -52,6 +53,10 @@ html,body {
     padding: 20px;
     font-size: 24px;
     border-radius: 0px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%); 
 }
 
 #devby {

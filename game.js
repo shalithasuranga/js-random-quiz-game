@@ -48,6 +48,7 @@ let play = () => {
         gcount --;
         if(gcount == 0) {
             document.getElementById('number').innerHTML = getRand();
+            document.getElementById('action').style.display = '';
             document.getElementById('action').innerHTML = 'Question';
             clearInterval(an);
             gcount = 10;
@@ -83,6 +84,8 @@ window.onload = () => {
         else {
             document.getElementById('action').innerHTML = 'Wait';
             startGame();
+            document.getElementById('number').style.display = '';
+            document.getElementById('action').style.display = 'none';
             staus = 1;
         }
     };
@@ -93,6 +96,7 @@ window.onload = () => {
 
     document.getElementById('question').style.display = 'none';
     document.getElementById('counter').style.display = '';
+    document.getElementById('number').style.display = 'none';
 };
 
 
@@ -100,6 +104,7 @@ let backtogame = () => {
     if(level < 3) {
         document.getElementById('counter').style.display = '';
         document.getElementById('question').style.display = 'none';
+        document.getElementById('number').style.display = 'none';
     }
     else {
         location.reload();
