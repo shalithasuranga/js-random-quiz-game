@@ -1,7 +1,7 @@
 let level = 0;
 let gcount = 300;
 let status = 0;
-let fakemode = !false;
+let fakemode = false;
 const fakeArray = [3, 11, 24];
 let tada;
 let bg;
