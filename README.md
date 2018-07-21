@@ -2,7 +2,7 @@
 
 Check [demo](http://shalithasuranga.me/js-random-quiz-game/)
 
-This simple quiz game has 3 rounds. Each round will display random questions and display question and related number. 
+This simple quiz game has 3 rounds. Each round will display random question and and related number. 
 
 ## Usage
 
